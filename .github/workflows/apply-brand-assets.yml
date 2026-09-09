@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add logo-mccannics.png favicon.png index.html hire/ shop/ services/ contact/ solar/ || true
+          git add logo-mccannics.png favicon.png index.html styles.css site.js README.md about/ hire/ shop/ services/ contact/ solar/ || true
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

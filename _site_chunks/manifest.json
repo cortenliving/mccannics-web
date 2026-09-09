@@ -2,43 +2,61 @@
   {
     "key": "index.html",
     "dest": "index.html",
-    "parts": 6,
-    "bytes": 13557
+    "parts": 11,
+    "bytes": 15091
   },
   {
-    "key": "hire__index.html",
-    "dest": "hire/index.html",
+    "key": "styles.css",
+    "dest": "styles.css",
     "parts": 4,
-    "bytes": 8176
+    "bytes": 5022
   },
   {
-    "key": "shop__index.html",
-    "dest": "shop/index.html",
-    "parts": 4,
-    "bytes": 9803
+    "key": "about__index.html",
+    "dest": "about/index.html",
+    "parts": 5,
+    "bytes": 6351
   },
   {
     "key": "services__index.html",
     "dest": "services/index.html",
+    "parts": 7,
+    "bytes": 10335
+  },
+  {
+    "key": "hire__index.html",
+    "dest": "hire/index.html",
     "parts": 5,
-    "bytes": 11014
+    "bytes": 7496
+  },
+  {
+    "key": "shop__index.html",
+    "dest": "shop/index.html",
+    "parts": 6,
+    "bytes": 8926
   },
   {
     "key": "contact__index.html",
     "dest": "contact/index.html",
-    "parts": 4,
-    "bytes": 8705
+    "parts": 6,
+    "bytes": 7990
   },
   {
     "key": "solar__index.html",
     "dest": "solar/index.html",
-    "parts": 18,
-    "bytes": 46505
+    "parts": 31,
+    "bytes": 45672
   },
   {
-    "key": "solar__solar.js",
-    "dest": "solar/solar.js",
-    "parts": 6,
-    "bytes": 15227
+    "key": "README.md",
+    "dest": "README.md",
+    "parts": 2,
+    "bytes": 1607
+  },
+  {
+    "key": "site.js",
+    "dest": "site.js",
+    "parts": 3,
+    "bytes": 4041
   }
 ]

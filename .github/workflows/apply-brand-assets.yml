@@ -3,7 +3,9 @@ on:
   push:
     paths:
       - '_brand_chunks/**'
+      - '_site_chunks/**'
       - 'favicon.png.b64'
+      - 'scripts/assemble_site.py'
       - '.github/workflows/apply-brand-assets.yml'
   workflow_dispatch:
 permissions:
@@ -26,14 +28,16 @@ jobs:
             echo "Decoded favicon.png ($(wc -c < favicon.png) bytes)"
             file favicon.png
           fi
-      - name: Commit PNG assets
+      - name: Assemble site files from chunks
+        run: python3 scripts/assemble_site.py
+      - name: Commit assembled assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add logo-mccannics.png favicon.png || true
+          git add logo-mccannics.png favicon.png index.html hire/ shop/ services/ contact/ solar/ || true
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Apply McCannics logo and favicon PNGs"
+            git commit -m "Assemble McCannics site pages and brand PNGs"
             git push
           fi

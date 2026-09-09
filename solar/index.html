@@ -5,53 +5,42 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>McCannics Solar — Own your power.</title>
 <meta name="description" content="McCannics Solar designs engineer-checked systems for Kiwi roofs from the Gisborne workshop. Honest numbers. No obligation quote." />
-<meta name="theme-color" content="#1F1F21" />
+<meta name="theme-color" content="#000205" />
 <link rel="icon" href="../favicon.png" type="image/png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,560;8..60,650;8..60,700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet" />
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="../styles.css" />
+<script src="../site.js" defer></script>
 <script src="solar.js" defer></script>
 </head>
 <body class="bg-[#F5F5F5] text-[#1F1F21] antialiased">
 <a class="skip-link" href="#main">Skip to content</a>
-<div class="bg-[#1F1F21] text-white">
-<div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-4 gap-y-1 px-5 py-2 text-sm sm:px-6 lg:px-8">
-<p class="text-white/80">Gisborne · Since 1981 · <a class="font-semibold text-[#00FCED] hover:underline" href="tel:0800220426">0800 220 426</a></p>
-<a class="shrink-0 font-semibold text-[#00FCED] hover:underline" href="#quote">Get a solar quote →</a>
-</div>
-</div>
-<header data-site-header class="sticky top-0 z-50 border-b border-white/10 bg-[#1F1F21] text-white">
-<div class="mx-auto flex max-w-6xl items-center gap-3 px-5 py-3 sm:px-6 lg:px-8">
+<header data-site-header class="sticky top-0 z-50 bg-[#000205] text-white">
+<div class="mx-auto flex max-w-7xl items-center gap-4 px-5 py-4 sm:px-8 lg:px-10">
 <a href="../index.html" class="flex min-w-0 items-center gap-2.5" aria-label="McCannics home">
-<img src="../logo-mccannics.png" alt="McCannics" class="h-9 w-auto max-h-10 shrink-0 object-contain sm:h-10" width="160" height="40" />
-<span class="font-display text-[1.05rem] font-semibold tracking-tight text-[#00FCED] sm:text-lg">Solar</span>
+<img src="../logo-mccannics.png" alt="McCannics" class="h-8 w-auto max-h-9 shrink-0 object-contain sm:h-9" width="160" height="40" />
+<span class="font-display text-[0.95rem] tracking-[0.14em] text-[#00FCED]">Solar</span>
 </a>
-<nav class="ml-auto hidden items-center gap-5 text-sm lg:flex" aria-label="Primary">
-<a class="nav-link is-active" href="./">Solar</a>
-<a class="nav-link hover:text-[#00FCED]" href="../hire/">Hire</a>
-<a class="nav-link hover:text-[#00FCED]" href="../shop/">Shop</a>
-<a class="nav-link hover:text-[#00FCED]" href="../services/">Services</a>
-<a class="nav-link hover:text-[#00FCED]" href="../about/">About</a>
-<a class="nav-link hover:text-[#00FCED]" href="../contact/">Contact</a>
-</nav>
-<a class="ml-auto shrink-0 bg-[#F10808] px-3 py-2 text-sm font-semibold text-white hover:bg-[#ff2a2a] lg:ml-4" href="#quote">Get a quote</a>
-<button id="nav-toggle" type="button" class="inline-flex h-11 w-11 shrink-0 items-center justify-center border border-white/20 lg:hidden" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
-<svg data-icon-open class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round" /></svg>
-<svg data-icon-close class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" hidden aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round" /></svg>
+<div class="ml-auto flex items-center gap-5 sm:gap-6">
+<a class="cta-underline hidden text-white sm:inline" href="#quote">Get a quote</a>
+<button id="nav-toggle" type="button" class="inline-flex h-11 w-11 shrink-0 items-center justify-center" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+<svg data-icon-open class="h-5 w-7" viewBox="0 0 28 14" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M0 1h28M0 13h20" stroke-linecap="square" /></svg>
+<svg data-icon-close class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" hidden aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="square" /></svg>
 </button>
 </div>
-<div id="mobile-nav" class="border-t border-white/10 bg-[#1F1F21] lg:hidden" hidden>
-<nav class="mx-auto flex max-w-6xl flex-col px-5 py-2 sm:px-6" aria-label="Mobile">
-<a class="border-b border-white/10 py-3 nav-link is-active" href="./">Solar</a>
-<a class="border-b border-white/10 py-3 hover:text-[#00FCED]" href="../hire/">Hire</a>
-<a class="border-b border-white/10 py-3 hover:text-[#00FCED]" href="../shop/">Shop</a>
-<a class="border-b border-white/10 py-3 hover:text-[#00FCED]" href="../services/">Services</a>
-<a class="border-b border-white/10 py-3 hover:text-[#00FCED]" href="../about/">About</a>
-<a class="border-b border-white/10 py-3 hover:text-[#00FCED]" href="../contact/">Contact</a>
-<a class="py-3 hover:text-[#00FCED]" href="#solutions">Home Solar</a>
-<a class="py-3 hover:text-[#00FCED]" href="#quote">Get a quote</a>
+</div>
+<div id="mobile-nav" class="border-t border-white/10 bg-[#000205]" hidden>
+<nav class="mx-auto flex max-w-7xl flex-col px-5 py-2 sm:px-8" aria-label="Primary">
+<a class="border-b border-white/10 py-4 nav-link hover:text-white" href="../services/">Services</a>
+<a class="border-b border-white/10 py-4 nav-link is-active" href="./">Solar</a>
+<a class="border-b border-white/10 py-4 nav-link hover:text-white" href="../hire/">Hire</a>
+<a class="border-b border-white/10 py-4 nav-link hover:text-white" href="../shop/">Shop</a>
+<a class="border-b border-white/10 py-4 nav-link hover:text-white" href="../about/">About</a>
+<a class="border-b border-white/10 py-4 nav-link hover:text-white" href="../contact/">Contact</a>
+<a class="border-b border-white/10 py-4 nav-link hover:text-white" href="#solutions">Home Solar</a>
+<a class="py-4 nav-link hover:text-white" href="#quote">Get a quote</a>
 </nav>
 </div>
 </header>
@@ -70,8 +59,20 @@ style="background-image: linear-gradient(rgba(0,252,237,0.09) 1px, transparent 1
 </svg>
 <div class="relative mx-auto grid max-w-6xl gap-10 px-5 pb-24 pt-12 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-14 lg:px-8 lg:pb-28 lg:pt-16">
 <div>
-<p class="text-xs font-semibold uppercase tracking-[0.18em] text-[#00FCED]">Mc Cannics Solar</p>
-<h1 class="font-display mt-4 max-w-xl text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl">
+<p class="text-xs font-semibold uppercase tracking-[0.18em] text-[#00FCED]">McCannics Solar</p>
+<h1 class="font-display mt-4 max-w-xl text-5xl leading-[0.95] tracking-tight sm:text-6xl lg:text-7xl">
+Own your power.
+</h1>
+<p class="mt-5 max-w-md text-lg leading-relaxed text-white/85">
+Engineer-checked systems for Kiwi roofs — honest numbers, no Sunday sales calls.
+</p>
+<p class="mt-6 text-sm tracking-wide text-white/70">Homes · Lifestyle blocks · Commercial</p>
+</div>
+<div class="relative z-10 border-t-4 border-[#00FCED] bg-[#FFFFFF] p-5 text-[#1F1F21] shadow-[0_24px_60px_rgba(0,0,0,0.28)] sm:p-6">
+<h2 class="font-display text-2xl font-semibold tracking-tight">What could solar save you?</h2>
+<div class="mt-5" role="group" aria-label="Battery option">
+<div class="grid grid-cols-2 gap-2">
+<button type="button" class="toggle-btn is-pressed border border-[#1F1F21] px-3 py-2.5 text-sm font-semibold" data-battery-toggle="no" aria-pressed="true">No battery</buass="font-display mt-4 max-w-xl text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl">
 Own your power.
 </h1>
 <p class="mt-5 max-w-md text-lg leading-relaxed text-white/85">

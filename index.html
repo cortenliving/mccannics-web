@@ -3,142 +3,97 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>McCannics — Engineering and trades for the East Coast</title>
-<meta name="description" content="McCannics: engineering, trades, solar, hire and workshop supplies from Gisborne since 1981." />
-<meta name="theme-color" content="#1F1F21" />
+<title>McCannics — Structural, seismic & mechanical engineering | Gisborne</title>
+<meta name="description" content="McCannics: structural, seismic and mechanical engineering, fabrication, electrical, solar, hire and supplies from Gisborne since 1981." />
+<meta name="theme-color" content="#000205" />
 <link rel="icon" href="favicon.png" type="image/png" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,560;8..60,650;8..60,700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet" />
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="styles.css" />
 <script src="site.js" defer></script>
 </head>
-<body class="bg-[#F5F5F5] text-[#1F1F21] antialiased">
+<body class="bg-[#000205] text-[#D8D8D8] antialiased">
 <a class="skip-link" href="#main">Skip to content</a>
-<div class="bg-[#1F1F21] text-white">
-<div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-4 gap-y-1 px-5 py-2 text-sm sm:px-6 lg:px-8">
-<p class="text-white/80">Gisborne · Since 1981 · <a class="font-semibold text-[#00FCED] hover:underline" href="tel:0800220426">0800 220 426</a></p>
-<a class="shrink-0 font-semibold text-[#00FCED] hover:underline" href="contact/">Request a quote →</a>
-</div>
-</div>
-<header data-site-header class="sticky top-0 z-50 border-b border-white/10 bg-[#1F1F21] text-white">
-<div class="mx-auto flex max-w-6xl items-center gap-3 px-5 py-3 sm:px-6 lg:px-8">
+<header data-site-header class="sticky top-0 z-50 bg-transparent text-white">
+<div class="mx-auto flex max-w-7xl items-center gap-4 px-5 py-4 sm:px-8 lg:px-10">
 <a href="index.html" class="flex min-w-0 items-center gap-2.5" aria-label="McCannics home">
-<img src="logo-mccannics.png" alt="McCannics" class="h-9 w-auto max-h-10 shrink-0 object-contain sm:h-10" width="160" height="40" />
+<img src="logo-mccannics.png" alt="McCannics" class="h-8 w-auto max-h-9 shrink-0 object-contain sm:h-9" width="160" height="40" />
+
 </a>
-<nav class="ml-auto hidden items-center gap-5 text-sm lg:flex" aria-label="Primary">
-<a class="nav-link hover:text-[#00FCED]" href="solar/">Solar</a>
-<a class="nav-link hover:text-[#00FCED]" href="hire/">Hire</a>
-<a class="nav-link hover:text-[#00FCED]" href="shop/">Shop</a>
-<a class="nav-link hover:text-[#00FCED]" href="services/">Services</a>
-<a class="nav-link hover:text-[#00FCED]" href="about/">About</a>
-<a class="nav-link hover:text-[#00FCED]" href="contact/">Contact</a>
-</nav>
-<a class="ml-auto shrink-0 bg-[#F10808] px-3 py-2 text-sm font-semibold text-white hover:bg-[#ff2a2a] lg:ml-4" href="contact/">Request a quote</a>
-<button id="nav-toggle" type="button" class="inline-flex h-11 w-11 shrink-0 items-center justify-center border border-white/20 lg:hidden" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
-<svg data-icon-open class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round" /></svg>
-<svg data-icon-close class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" hidden aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="round" /></svg>
+<div class="ml-auto flex items-center gap-5 sm:gap-6">
+<a class="cta-underline hidden text-white sm:inline" href="contact/">Contact us</a>
+<button id="nav-toggle" type="button" class="inline-flex h-11 w-11 shrink-0 items-center justify-center" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+<svg data-icon-open class="h-5 w-7" viewBox="0 0 28 14" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M0 1h28M0 13h20" stroke-linecap="square" /></svg>
+<svg data-icon-close class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" hidden aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke-linecap="square" /></svg>
 </button>
 </div>
-<div id="mobile-nav" class="border-t border-white/10 bg-[#1F1F21] lg:hidden" hidden>
-<nav class="mx-auto flex max-w-6xl flex-col px-5 py-2 sm:px-6" aria-label="Mobile">
-<a class="border-b border-white/10 py-3 nav-link hover:text-[#00FCED]" href="solar/">Solar</a>
-<a class="border-b border-white/10 py-3 nav-link hover:text-[#00FCED]" href="hire/">Hire</a>
-<a class="border-b border-white/10 py-3 nav-link hover:text-[#00FCED]" href="shop/">Shop</a>
-<a class="border-b border-white/10 py-3 nav-link hover:text-[#00FCED]" href="services/">Services</a>
-<a class="border-b border-white/10 py-3 nav-link hover:text-[#00FCED]" href="about/">About</a>
-<a class="border-b border-white/10 py-3 nav-link hover:text-[#00FCED]" href="contact/">Contact</a>
+</div>
+<div id="mobile-nav" class="border-t border-white/10 bg-[#000205]/hidden" hidden>
+<nav class="mx-auto flex max-w-7xl flex-col px-5 py-2 sm:px-8" aria-label="Primary">
+<a class="border-b border-white/10 py-4 nav-link hover:text-white" href="services/">Services</a>
+<a class="border-b border-white/10 py-4 nav-link hover:text-white" href="solar/">Solar</a>
+<a class="border-b border-white/10 py-4 nav-link hover:text-white" href="hire/">Hire</a>
+<a class="border-b border-white/10 py-4 nav-link hover:text-white" href="shop/">Shop</a>
+<a class="border-b border-white/10 py-4 nav-link hover:text-white" href="about/">About</a>
+<a class="border-b border-white/10 py-4 nav-link hover:text-white" href="contact/">Contact</a>
 </nav>
 </div>
 </header>
 
 <main id="main">
-<section class="relative overflow-hidden bg-[#1F1F21] text-white">
-<div class="pointer-events-none absolute inset-0 opacity-30" aria-hidden="true" style="background-image: linear-gradient(rgba(0,252,237,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(0,252,237,0.08) 1px, transparent 1px); background-size: 56px 56px;"></div>
-<div class="relative mx-auto max-w-6xl px-5 pb-20 pt-14 sm:px-6 lg:px-8 lg:pb-24 lg:pt-20">
-<p class="text-xs font-semibold uppercase tracking-[0.18em] text-[#00FCED]">Gisborne workshop</p>
-<h1 class="font-display mt-4 max-w-2xl text-4xl font-semibold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl">Engineering and trades for the East Coast.</h1>
-<p class="mt-5 max-w-xl text-lg leading-relaxed text-white/85">Straight-talking fabrication, site work, solar, hire and supplies — from the same Awapuni Road yard since 1981.</p>
-<div class="mt-8 flex flex-wrap gap-3">
-<a class="inline-flex bg-[#F10808] px-5 py-3 text-sm font-semibold text-white hover:bg-[#ff2a2a]" href="contact/">Request a quote</a>
-<a class="inline-flex border border-white/30 px-5 py-3 text-sm font-semibold text-white hover:border-[#00FCED] hover:text-[#00FCED]" href="hire/">Browse hire</a>
+<!-- 1 FULL-SCREEN HERO -->
+<section class="relative flex min-h-[100svh] flex-col overflow-hidden bg-[#000205] text-white">
+<div class="pointer-events-none absolute inset-0" aria-hidden="true">
+<div class="absolute inset-0 opacity-[0.35]" style="background-image:linear-gradient(rgba(216,216,216,0.06) 1px,transparent 1px),linear-gradient(90deg,rgba(216,216,216,0.06) 1px,transparent 1px);background-size:72px 72px;"></div>
+<div class="absolute -right-24 top-1/4 h-[70vh] w-[70vh] rounded-full border border-white/[0.06]"></div>
+<div class="absolute -left-32 bottom-0 h-[50vh] w-[50vh] rotate-12 border border-[#F10808]/15"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-[#000205] via-[#000205]/75 to-[#000205]/40"></div>
 </div>
-<p class="mt-8 text-sm tracking-wide text-white/65">In-house trades · Local stock · Written quotes</p>
+<div class="relative z-10 mx-auto flex w-full max-w-7xl flex-1 flex-col px-5 pb-16 pt-8 sm:px-8 lg:px-10">
+<div class="mt-auto flex flex-1 items-center justify-end pb-10 pt-16 lg:pt-8">
+<div class="w-full max-w-3xl lg:mr-8 lg:max-w-4xl">
+<h1 class="hero-stack text-[clamp(2.6rem,8.5vw,6.75rem)] text-white">
+<span class="block">Structural,</span>
+<span class="block">Seismic and</span>
+<span class="block">Mechanical</span>
+<span class="block">Engineering</span>
+</h1>
 </div>
-</section>
-
-<section class="bg-[#F5F5F5]" aria-labelledby="pathways-heading">
-<div class="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:px-8 lg:py-20">
-<h2 id="pathways-heading" class="font-display text-3xl font-semibold tracking-tight sm:text-4xl">Where do you need us?</h2>
-<p class="mt-3 max-w-xl text-[#6B6B70]">Three clear doors. Pick one and we will take it from there.</p>
-<div class="mt-10 grid gap-5 lg:grid-cols-3">
-<a href="solar/" class="group flex flex-col border border-[#E5E5E7] border-t-4 border-t-[#00FCED] bg-[#FFFFFF] p-6 transition hover:border-[#00FCED]">
-<p class="text-xs font-semibold uppercase tracking-[0.16em] text-[#00FCED]">Solar</p>
-<h3 class="font-display mt-3 text-2xl font-semibold group-hover:text-[#1F1F21]">Own your power</h3>
-<p class="mt-3 flex-1 text-sm leading-relaxed text-[#6B6B70]">Engineer-checked systems for homes, lifestyle blocks, farms and small commercial.</p>
-<span class="mt-6 text-sm font-semibold text-[#F10808]">Explore solar →</span>
+</div>
+<div class="flex items-end justify-between gap-6">
+<a href="#intro" class="scroll-dot" aria-label="Scroll to intro">
+<svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6" stroke-linecap="square"/></svg>
 </a>
-<a href="hire/" class="group flex flex-col border border-[#E5E5E7] border-t-4 border-t-[#00FCED] bg-[#FFFFFF] p-6 transition hover:border-[#00FCED]">
-<p class="text-xs font-semibold uppercase tracking-[0.16em] text-[#00FCED]">Hire</p>
-<h3 class="font-display mt-3 text-2xl font-semibold">Gear when you need it</h3>
-<p class="mt-3 flex-1 text-sm leading-relaxed text-[#6B6B70]">Commercial, industrial and farm hire from the Gisborne yard. Availability confirmed by phone.</p>
-<span class="mt-6 text-sm font-semibold text-[#F10808]">Browse hire →</span>
-</a>
-<a href="services/" class="group flex flex-col border border-[#E5E5E7] border-t-4 border-t-[#00FCED] bg-[#FFFFFF] p-6 transition hover:border-[#00FCED]">
-<p class="text-xs font-semibold uppercase tracking-[0.16em] text-[#00FCED]">Workshop &amp; site</p>
-<h3 class="font-display mt-3 text-2xl font-semibold">Trades on the job</h3>
-<p class="mt-3 flex-1 text-sm leading-relaxed text-[#6B6B70]">Engineering, fabrication, construction, electrical, hydraulics and maintenance — in-house.</p>
-<span class="mt-6 text-sm font-semibold text-[#F10808]">See services →</span>
-</a>
+<div class="hidden items-center gap-4 sm:flex">
+<span class="h-16 w-px bg-white/30" aria-hidden="true"></span>
+<p class="vert-label">Gisborne</p>
+</div>
 </div>
 </div>
 </section>
 
-<section class="border-y border-[#E5E5E7] bg-[#FFFFFF]" aria-labelledby="what-heading">
-<div class="mx-auto max-w-6xl px-5 py-16 sm:px-6 lg:px-8 lg:py-20">
-<h2 id="what-heading" class="font-display text-3xl font-semibold tracking-tight sm:text-4xl">What we do</h2>
-<p class="mt-3 max-w-xl text-[#6B6B70]">Grouped the way the work actually lands — not a wall of equal cards.</p>
-<div class="mt-10 grid gap-6 sm:grid-cols-2">
-<article class="border-l-4 border-[#00FCED] bg-[#F5F5F5] p-5 sm:p-6">
-<h3 class="font-display text-xl font-semibold">Engineering &amp; fabrication</h3>
-<p class="mt-2 text-sm leading-relaxed text-[#6B6B70]">Design, cut, weld and fit — from one-off brackets to structural steel and line boring.</p>
-</article>
-<article class="border-l-4 border-[#00FCED] bg-[#F5F5F5] p-5 sm:p-6">
-<h3 class="font-display text-xl font-semibold">Construction &amp; seismic</h3>
-<p class="mt-2 text-sm leading-relaxed text-[#6B6B70]">Site steel, seismic restraint and building work grounded in East Coast conditions.</p>
-</article>
-<article class="border-l-4 border-[#00FCED] bg-[#F5F5F5] p-5 sm:p-6">
-<h3 class="font-display text-xl font-semibold">Electrical &amp; maintenance</h3>
-<p class="mt-2 text-sm leading-relaxed text-[#6B6B70]">Plant electrics, servicing and the day-to-day keep-running work yards rely on.</p>
-</article>
-<article class="border-l-4 border-[#00FCED] bg-[#F5F5F5] p-5 sm:p-6">
-<h3 class="font-display text-xl font-semibold">Packaging &amp; machinery</h3>
-<p class="mt-2 text-sm leading-relaxed text-[#6B6B70]">Packaging equipment, hydraulics (ENZED) and workshop machinery support.</p>
-</article>
-</div>
-<p class="mt-8"><a class="text-sm font-semibold text-[#F10808] hover:underline" href="services/">Full services overview →</a></p>
+<!-- 2 REGIONAL INTRO (dark continuation) -->
+<section id="intro" class="bg-[#000205] text-[#D8D8D8]">
+<div class="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-10 lg:py-24">
+<p class="section-label">East Coast · New Zealand</p>
+<p class="mt-8 max-w-3xl text-lg font-light leading-relaxed tracking-wide text-[#D8D8D8] sm:text-xl sm:leading-relaxed">From Hawke’s Bay north along the East Coast and NZ-wide when the job fits — McCannics delivers engineering and trades from concept to completion out of Gisborne.</p>
 </div>
 </section>
 
-<section class="bg-[#1F1F21] text-white" aria-labelledby="solar-band">
-<div class="mx-auto flex max-w-6xl flex-col gap-6 px-5 py-14 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8 lg:py-16">
-<div>
-<p class="text-xs font-semibold uppercase tracking-[0.18em] text-[#00FCED]">McCannics Solar</p>
-<h2 id="solar-band" class="font-display mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Own your power.</h2>
-<p class="mt-3 max-w-xl text-white/80">Honest sizing for Kiwi roofs — estimator and no-obligation quote from the Gisborne workshop.</p>
-</div>
-<a class="inline-flex shrink-0 self-start bg-[#F10808] px-5 py-3 text-sm font-semibold text-white hover:bg-[#ff2a2a] lg:self-center" href="solar/">Go to Solar →</a>
+<!-- 3 LARGE ABOUT / POSITIONING -->
+<section class="border-t border-white/10 bg-[#0B0C0E]">
+<div class="mx-auto max-w-7xl px-5 py-16 sm:px-8 lg:px-10 lg:py-24">
+<p class="section-label">About</p>
+<p class="mt-8 max-w-4xl text-2xl font-light leading-snug tracking-wide text-white sm:text-3xl sm:leading-snug lg:text-4xl">A full-service workshop with a focus on structural steel, seismic and mechanical work, electrical, solar, hire and supplies — in-house trades under one roof since 1981.</p>
+<p class="mt-10"><a class="cta-underline text-[#D8D8D8]" href="about/">About McCannics</a></p>
 </div>
 </section>
 
-<section class="bg-[#FFFFFF]" aria-labelledby="hire-band">
-<div class="mx-auto flex max-w-6xl flex-col gap-6 px-5 py-14 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8 lg:py-16">
-<div>
-<h2 id="hire-band" class="font-display text-3xl font-semibold tracking-tight sm:text-4xl">Hire — gear when you need it</h2>
-<p class="mt-3 max-w-xl text-[#6B6B70]">Welders, lifting, site and farm kit from the yard. We confirm availability by phone — no fake online stock counts.</p>
-</div>
-<a class="inline-flex shrink-0 self-start border border-[#1F1F21] px-5 py-3 text-sm font-semibold hover:border-[#00FCED] hover:text-[#1F1F21] lg:self-center" href="hire/">Browse hire →</a>
+<!-- 4 OUR SERVICES — 3-col × 9 tiles -->
+<section class="bg-[#000205]" aria-labelledby="services-heading">
+<div class="mx-auto max-w-7xl px5 py-3 text-sm font-semibold hover:border-[#00FCED] hover:text-[#1F1F21] lg:self-center" href="hire/">Browse hire →</a>
 </div>
 </section>
 
